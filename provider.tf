@@ -10,5 +10,5 @@ terraform {
 provider "google" {
   project     = "divine-descent-370819"
   region      = "us-central1"
-  #credentials = "${file("keys.json")}"
+  credentials = "${file("keys.json")}"
 }
